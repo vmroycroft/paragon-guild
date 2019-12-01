@@ -1,21 +1,8 @@
 <template>
-	<div id="app" v-scroll="onScroll">
+	<div id="app">
+		<!-- <div id="app" v-scroll="onScroll"> -->
 		<v-app>
-			<v-navigation-drawer app>
-				<!-- -->
-			</v-navigation-drawer>
-
-			<v-app-bar app flat color="#0d181f" class="d-none d-md-flex justify-center">
-				<v-toolbar-title class="paragon-font hidden animated fadeOut">Paragon</v-toolbar-title>
-				<v-btn text>Home</v-btn>
-				<v-btn text>Forum</v-btn>
-				<v-btn text>Classes</v-btn>
-				<v-img src="./assets/images/tabard.png" max-height="55" max-width="55" :contain="true"></v-img>
-				<v-btn text>Apply</v-btn>
-				<v-btn text>Events</v-btn>
-				<v-btn text>Inventory</v-btn>
-			</v-app-bar>
-
+			<AppBar />
 			<v-content>
 				<!-- <v-container> -->
 				<!-- <v-container fluid> -->
@@ -29,15 +16,19 @@
 </template>
 
 <script>
-import EventBus from './EventBus';
+// import EventBus from './EventBus';
+import AppBar from './components/AppBar';
 
 export default {
 	name: 'app',
-	methods: {
-		onScroll() {
-			EventBus.$emit('scroll');
-		}
+	components: {
+		AppBar
 	}
+	// methods: {
+	// 	onScroll() {
+	// 		EventBus.$emit('scroll');
+	// 	}
+	// }
 };
 </script>
 
@@ -61,7 +52,7 @@ body,
 }
 
 hr {
-	background: url(~/assets/images/emblem.png) no-repeat top center;
+	background: url(~/assets/images/emblem.svg) no-repeat top center;
 	background-size: contain;
 	display: block;
 	height: 18px;
@@ -97,15 +88,43 @@ hr:after {
 
 ul {
 	margin-bottom: 16px;
+	list-style-type: circle;
+	list-style-position: inside;
 }
 
-.hidden {
+/* .app-bar-image {
+	margin: 0 0.5rem;
+} */
+
+/* .hidden {
 	visibility: hidden;
-}
+} */
 
 .paragon-font {
 	font-family: 'New Vera';
 	font-weight: 100;
 	color: #ad8965;
+}
+
+/* .v-content {
+	padding-top: 64px !important;
+} */
+
+.v-toolbar__title {
+	font-size: 2rem !important;
+	align-self: flex-end;
+	position: fixed;
+	left: 1.5rem;
+}
+
+.wrapper {
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+	.wrapper {
+		max-width: 90%;
+	}
 }
 </style>
