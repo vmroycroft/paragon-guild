@@ -1,4 +1,4 @@
-# Paragon Guild ![v1.0.0](https://img.shields.io/github/package-json/v/vmroycroft/vanessaroycroft-v3.svg)
+# Paragon Guild ![v1.0.0](https://img.shields.io/github/package-json/v/vmroycroft/paragon-guild-v1.svg)
 
 This is the current version of the Paragon WoW guild website built with [Vue.js](https://vuejs.org/).
 

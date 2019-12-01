@@ -1,22 +1,15 @@
 <template>
 	<div id="app">
-		<!-- <div id="app" v-scroll="onScroll"> -->
 		<v-app>
 			<AppBar />
 			<v-content>
-				<!-- <v-container> -->
-				<!-- <v-container fluid> -->
 				<router-view></router-view>
-				<!-- </v-container> -->
 			</v-content>
-
-			<!-- <v-footer app> </v-footer> -->
 		</v-app>
 	</div>
 </template>
 
 <script>
-// import EventBus from './EventBus';
 import AppBar from './components/AppBar';
 
 export default {
@@ -24,11 +17,6 @@ export default {
 	components: {
 		AppBar
 	}
-	// methods: {
-	// 	onScroll() {
-	// 		EventBus.$emit('scroll');
-	// 	}
-	// }
 };
 </script>
 
@@ -92,23 +80,11 @@ ul {
 	list-style-position: inside;
 }
 
-/* .app-bar-image {
-	margin: 0 0.5rem;
-} */
-
-/* .hidden {
-	visibility: hidden;
-} */
-
 .paragon-font {
 	font-family: 'New Vera';
 	font-weight: 100;
 	color: #ad8965;
 }
-
-/* .v-content {
-	padding-top: 64px !important;
-} */
 
 .v-toolbar__title {
 	font-size: 2rem !important;

@@ -9,7 +9,6 @@
 				<div class="title__info">A WoW Classic community</div>
 			</div>
 			<div class="about-us">
-				<!-- <div class="about-us d-flex flex-column justify-center flex-grow-1"> -->
 				<h2 class="section__title paragon-font">About Us</h2>
 				<p>
 					In order to secure our brand as an expansive guild vying for lasting success, we strive to constitute a Paragon of camaraderie. We believe that the social development of the guild and the
@@ -71,27 +70,8 @@
 </template>
 
 <script>
-// import EventBus from '../EventBus';
-
 export default {
 	name: 'Home'
-	// mounted: function() {
-	// 	// keep an eye on scrolling
-	// 	this.appBarTitle = document.querySelector('.v-toolbar__title');
-	// 	const titleInfo = document.querySelector('.title__info');
-	// 	this.target = titleInfo.offsetTop + titleInfo.clientHeight;
-	// 	EventBus.$on('scroll', this.showAppBarTitle);
-	// },
-	// methods: {
-	// 	showAppBarTitle: function() {
-	// 		if (window.pageYOffset > this.target) {
-	// 			this.appBarTitle.classList.remove('hidden');
-	// 			this.appBarTitle.classList.replace('fadeOut', 'fadeIn');
-	// 		} else {
-	// 			this.appBarTitle.classList.replace('fadeIn', 'fadeOut');
-	// 		}
-	// 	}
-	// }
 };
 </script>
 
@@ -102,7 +82,6 @@ export default {
 
 .below-fold {
 	background: #0c0c0c;
-	/* background: #0c0c0c url(~/assets/images/backgrounds/zig-zag.png); */
 	padding-bottom: 2.5rem;
 }
 
