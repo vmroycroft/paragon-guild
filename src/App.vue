@@ -28,7 +28,7 @@ export default {
 
 @font-face {
 	font-family: 'New Vera';
-	src: url('~/assets/fonts/New Vera/New Vera.woff2') format('woff2'), url('~/assets/fonts/New Vera/New Vera.woff') format('woff');
+	src: url('~@/../public/assets/fonts/New Vera/New Vera.woff2') format('woff2'), url('~@/../public/assets/fonts/New Vera/New Vera.woff') format('woff');
 	font-weight: 300;
 	font-style: normal;
 }
@@ -43,7 +43,7 @@ body,
 }
 
 hr {
-	background: url(~/assets/images/emblem.svg) no-repeat top center;
+	background: url('~@/../public/assets/images/emblem.svg') no-repeat top center;
 	background-size: contain;
 	display: block;
 	height: 18px;

@@ -105,7 +105,7 @@ export default {
 	top: 0;
 	width: 100vw;
 	height: 100vh;
-	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(~/assets/images/background.jpg) no-repeat center center;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(~@/../public/assets/images/background.jpg) no-repeat center center;
 	background-size: cover;
 }
 
