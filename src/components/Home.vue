@@ -81,7 +81,8 @@ export default {
 }
 
 .below-fold {
-	background: #0c0c0c;
+	background: #0e0807;
+	/* background: #0c0c0c; */
 	padding-bottom: 2.5rem;
 }
 
@@ -104,7 +105,7 @@ export default {
 	top: 0;
 	width: 100vw;
 	height: 100vh;
-	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(~/assets/images/background.jpg) no-repeat center center;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(~/assets/images/background.jpg) no-repeat center center;
 	background-size: cover;
 }
 

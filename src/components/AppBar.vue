@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<!-- Navigation drawer for mobile -->
-		<v-navigation-drawer app temporary floating color="#0d181f" v-model="drawer" :right="true" class="hidden-md-and-up">
+		<v-navigation-drawer app temporary floating color="#241713" v-model="drawer" :right="true" class="hidden-md-and-up">
 			<v-list>
 				<v-list-item v-for="item in items" :key="item" link>
 					<v-list-item-content>
@@ -11,7 +11,7 @@
 			</v-list>
 		</v-navigation-drawer>
 
-		<v-app-bar app flat color="#0d181f">
+		<v-app-bar app flat color="#241713">
 			<v-toolbar-title class="paragon-font">Paragon</v-toolbar-title>
 			<v-spacer></v-spacer>
 			<v-toolbar-items class="hidden-sm-and-down">

@@ -67,14 +67,14 @@ hr:before {
 	left: 0;
 	right: 50%;
 	margin-right: 25px;
-	background: linear-gradient(to right, rgb(13, 24, 31, 0), rgba(13, 24, 31, 0.5), rgba(13, 24, 31, 1));
+	background: linear-gradient(to right, rgb(50, 112, 123, 0), rgba(50, 112, 123, 0.5), rgba(50, 112, 123, 1));
 }
 
 hr:after {
 	right: 0;
 	left: 50%;
 	margin-left: 25px;
-	background: linear-gradient(to left, rgb(13, 24, 31, 0), rgba(13, 24, 31, 0.5), rgba(13, 24, 31, 1));
+	background: linear-gradient(to left, rgb(50, 112, 123, 0), rgba(50, 112, 123, 0.5), rgba(50, 112, 123, 1));
 }
 
 ul {

@@ -19,7 +19,8 @@ export default {
 	text-align: center;
 	padding: 1rem 0 0.5rem 0;
 	color: #313131;
-	background-color: #060606;
+	background-color: #080504;
+	/* background-color: #060606; */
 }
 
 .footer__img {
