@@ -2,7 +2,6 @@
 dist/**
 node_modules/**
 **/_backup/**
-rsync-exclude.txt
 
 # local env files
 .env.local
