@@ -1,3 +1,5 @@
 module.exports = {
-	publicPath: '/preview/'
-};
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/paragon-guild/'
+    : '/'
+}
