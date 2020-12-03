@@ -1,6 +1,6 @@
 # Paragon Guild ![v0.1.0](https://img.shields.io/github/package-json/v/vmroycroft/paragon-guild.svg)
 
-This is the Paragon WoW guild website built with [Vue.js](https://vuejs.org/).
+This is a website built with [Vue.js](https://vuejs.org/) for the Paragon WoW Classic guild. It's a work in progress.
 
 ## Quick Start
 
